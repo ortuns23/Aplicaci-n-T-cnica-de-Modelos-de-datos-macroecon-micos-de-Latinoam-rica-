@@ -1,1 +1,1 @@
-# Aplicaci-n-T-cnica-de-Modelos-de-datos-macroecon-micos-de-Latinoam-rica-
+# Aplicacion Tecnica de Modelos de datos macroecon micos de Latinoamerica.
