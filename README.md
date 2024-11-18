@@ -3,34 +3,39 @@
 # Capstone Project: Aplicación de Modelos de Machine Learning e Inteligencia Artificial a Datos Macroeconómicos de Latinoamérica
 
 
-
 Análisis Exploratorio de Datos Macroeconómicos del FLAR
-Este proyecto realiza un análisis exploratorio de datos (EDA) sobre los indicadores macroeconómicos proporcionados por el Fondo Latinoamericano de Reservas (FLAR) a través de su Sistema de Información Económica (SIE).
+Este proyecto se centra en el análisis exploratorio de datos (EDA) sobre los indicadores macroeconómicos proporcionados por el Fondo Latinoamericano de Reservas (FLAR) a través de su Sistema de Información Económica (SIE).
 Resumen de Hallazgos Iniciales
-Nuestro análisis exploratorio inicial ha revelado varios patrones interesantes en los datos macroeconómicos de Latinoamérica:
-Se observan tendencias similares en indicadores económicos clave entre grupos de países, sugiriendo posibles clusters regionales.
-Existe una alta correlación entre ciertos indicadores económicos, como el PIB y la inversión extranjera directa.
-Se detectaron algunas anomalías en las series temporales, particularmente en períodos de crisis económicas conocidas.
-La completitud de los datos varía significativamente entre países y indicadores, lo que requerirá estrategias de manejo de datos faltantes.
+Tendencias Regionales: Identificación de patrones similares en indicadores económicos entre grupos de países.
+Correlaciones Altas: Fuerte correlación entre el PIB y la inversión extranjera directa.
+Anomalías en Series Temporales: Irregularidades detectadas en períodos de crisis económicas.
+Completitud de Datos: Variación significativa en la calidad y cantidad de datos entre países.
 Archivos del Proyecto
-Preproceso_scripts.py
-Este script contiene las funciones y procedimientos utilizados para la limpieza y preparación inicial de los datos del FLAR. Incluye:
-Carga y formateo de datos brutos
-Manejo de valores faltantes y atípicos
-Normalización y estandarización de variables
-Creación de nuevas características derivadas
-FLARSIE_EDA_revision.py
-Este archivo presenta el análisis exploratorio de datos completo. Características principales:
-Visualizaciones detalladas de distribuciones de variables clave
-Análisis de correlaciones entre indicadores económicos
-Exploración de tendencias temporales por país y región
-Identificación preliminar de posibles agrupaciones de países
+Preproceso_scripts.ipynb
+Este notebook se encarga de la limpieza y preparación inicial de los datos. Incluye:
+Carga y formateo de datos.
+Manejo de valores faltantes.
+Normalización y creación de nuevas características.
+FLARSIE_EDA_revision.ipynb
+Este notebook presenta el análisis exploratorio completo. Contiene:
+Visualizaciones detalladas.
+Análisis de correlaciones.
+Exploración de tendencias temporales.
 Objetivos del Análisis
-Agrupación de Países: Explorar similitudes entre países latinoamericanos basadas en sus indicadores macroeconómicos para identificar posibles clusters.
-Predicción de Indicadores: Analizar las series temporales de indicadores clave para establecer las bases de futuros modelos predictivos.
-Identificación de Patrones: Descubrir relaciones y patrones en los datos que puedan proporcionar insights valiosos para el FLAR.
+Agrupación de Países: Identificar similitudes entre países para formar clusters.
+Predicción de Indicadores: Establecer bases para modelos predictivos.
+Identificación de Patrones: Descubrir relaciones significativas en los datos.
 Próximos Pasos
-Profundizar en el análisis de clusters utilizando técnicas de machine learning no supervisado.
-Desarrollar modelos predictivos para indicadores económicos clave.
-Realizar un análisis comparativo más detallado entre países miembros y no miembros del FLAR.
-Este proyecto es parte del Capstone Project para el curso de Data Science. Para más información sobre el FLAR y el SIE, visite www.flar.net.
+Profundizar en el análisis con técnicas de machine learning.
+Desarrollar modelos predictivos para indicadores clave.
+Realizar comparaciones detalladas entre países.
+Descripción del Caso
+El FLAR es un acuerdo financiero regional entre varios países latinoamericanos, creado para facilitar la integración regional y afrontar desequilibrios económicos externos. El proyecto utiliza datos del Sistema de Información Económica (SIE) del FLAR, que contiene aproximadamente 90,000 observaciones de indicadores económicos por país y fecha.
+Propuesta de Trabajo
+El proyecto se desarrolla en cinco fases:
+Diseño del Proyecto: Recopilación de datos, exploración inicial y definición de objetivos.
+Machine Learning en Python: Selección, entrenamiento y evaluación de modelos.
+Documentación y Presentación: Creación de informes y presentaciones.
+Evaluación y Revisión: Revisión del proyecto y preparación para la presentación.
+Retroalimentación y Mejoras: Análisis de feedback y identificación de áreas de mejora.
+Este proyecto es parte del Capstone Project para el curso de Data Science. Para más información sobre el FLAR y el SIE, visita www.flar.net.
