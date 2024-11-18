@@ -2,61 +2,35 @@
 
 # Capstone Project: Aplicación de Modelos de Machine Learning e Inteligencia Artificial a Datos Macroeconómicos de Latinoamérica
 
-## Introducción
 
-Este proyecto tiene como objetivo explorar el uso de técnicas de machine learning e inteligencia artificial para analizar datos macroeconómicos de países latinoamericanos. A través del uso del Sistema de Información Económica (SIE) del Fondo Latinoamericano de Reservas (FLAR), se busca obtener insights valiosos que puedan ayudar en la toma de decisiones estratégicas.
 
-## Descripción del Caso
-
-El **Fondo Latinoamericano de Reservas (FLAR)** es una institución financiera regional que facilita la integración económica entre sus países miembros. Con el fin de mejorar su capacidad para anticipar situaciones económicas críticas, se propone utilizar modelos de machine learning para:
-
-1. **Agrupar países** según sus características macroeconómicas y encontrar clústeres de "países similares".
-2. **Predecir valores futuros** de indicadores económicos clave para anticiparse a situaciones urgentes.
-
-## Fases del Proyecto
-
-El proyecto se desarrollará en cinco fases:
-
-### Fase 1: Diseño del Proyecto
-- **Recopilación de Datos**: Obtener datos del SIE y realizar una exploración inicial.
-- **Definición de Objetivos**:
-  - Clasificación: Asignar etiquetas a los datos.
-  - Predicción: Estimar valores futuros basados en patrones históricos.
-  
-### Fase 2: Machine Learning en Python
-- **Selección de Modelo**: Elegir algoritmos adecuados según los objetivos.
-- **Entrenamiento del Modelo**: Dividir los datos en conjuntos de entrenamiento y prueba.
-- **Evaluación del Modelo**: Utilizar métricas como precisión y F1-score.
-- **Visualización de Resultados**: Generar gráficos interpretativos.
-
-### Fase 3: Documentación y Presentación
-- **Informe Final**: Documentar todo el proceso y hallazgos clave.
-- **Cuaderno Jupyter**: Incluir el código y pasos seguidos.
-- **Presentación PowerPoint**: Resumir los aspectos más importantes en hasta 10 diapositivas.
-
-### Fase 4: Evaluación y Revisión
-- **Revisión del Proyecto**: Asegurar claridad, originalidad y corrección.
-- **Presentación del Proyecto**: Prepararse para responder preguntas durante la presentación final.
-
-### Fase 5: Retroalimentación y Mejoras (Opcional)
-- **Análisis de Retroalimentación**: Considerar mejoras basadas en la retroalimentación recibida.
-
-## Elementos Clave
-
-El trabajo se estructurará en tres estamentos principales:
-
-1. **Responsable de Datos**: Recopilar, procesar y explorar datos, así como coordinar con economistas expertos.
-2. **Responsable de Modelos**: Prueba, selección y evaluación de modelos.
-3. **Responsable de Documentación**: Creación de toda la documentación necesaria.
-
-## Resultados Esperados
-
-Se anticipa que el análisis permitirá:
-- Identificar patrones ocultos en los datos macroeconómicos.
-- Proporcionar herramientas valiosas para la toma de decisiones estratégicas en el FLAR.
-- Mejorar la planificación económica a través de predicciones precisas.
-
-## Conclusiones
-
-Este proyecto busca no solo aplicar técnicas avanzadas de machine learning, sino también contribuir al desarrollo económico sostenible en Latinoamérica mediante un análisis riguroso e informado. La colaboración con expertos económicos será fundamental para garantizar la relevancia y aplicabilidad de los resultados obtenidos.
-
+Análisis Exploratorio de Datos Macroeconómicos del FLAR
+Este proyecto realiza un análisis exploratorio de datos (EDA) sobre los indicadores macroeconómicos proporcionados por el Fondo Latinoamericano de Reservas (FLAR) a través de su Sistema de Información Económica (SIE).
+Resumen de Hallazgos Iniciales
+Nuestro análisis exploratorio inicial ha revelado varios patrones interesantes en los datos macroeconómicos de Latinoamérica:
+Se observan tendencias similares en indicadores económicos clave entre grupos de países, sugiriendo posibles clusters regionales.
+Existe una alta correlación entre ciertos indicadores económicos, como el PIB y la inversión extranjera directa.
+Se detectaron algunas anomalías en las series temporales, particularmente en períodos de crisis económicas conocidas.
+La completitud de los datos varía significativamente entre países y indicadores, lo que requerirá estrategias de manejo de datos faltantes.
+Archivos del Proyecto
+Preproceso_scripts.py
+Este script contiene las funciones y procedimientos utilizados para la limpieza y preparación inicial de los datos del FLAR. Incluye:
+Carga y formateo de datos brutos
+Manejo de valores faltantes y atípicos
+Normalización y estandarización de variables
+Creación de nuevas características derivadas
+FLARSIE_EDA_revision.py
+Este archivo presenta el análisis exploratorio de datos completo. Características principales:
+Visualizaciones detalladas de distribuciones de variables clave
+Análisis de correlaciones entre indicadores económicos
+Exploración de tendencias temporales por país y región
+Identificación preliminar de posibles agrupaciones de países
+Objetivos del Análisis
+Agrupación de Países: Explorar similitudes entre países latinoamericanos basadas en sus indicadores macroeconómicos para identificar posibles clusters.
+Predicción de Indicadores: Analizar las series temporales de indicadores clave para establecer las bases de futuros modelos predictivos.
+Identificación de Patrones: Descubrir relaciones y patrones en los datos que puedan proporcionar insights valiosos para el FLAR.
+Próximos Pasos
+Profundizar en el análisis de clusters utilizando técnicas de machine learning no supervisado.
+Desarrollar modelos predictivos para indicadores económicos clave.
+Realizar un análisis comparativo más detallado entre países miembros y no miembros del FLAR.
+Este proyecto es parte del Capstone Project para el curso de Data Science. Para más información sobre el FLAR y el SIE, visite www.flar.net.
